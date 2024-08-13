@@ -1,9 +1,6 @@
-0x17. Web stack debugging #3
-Background Context
-Six Stages of Debugging
-That can't happen.
-That doesn't happen on my machine.
-That shouldn't happen.
-Why does that happen?
-Oh, I see.
-How did that ever work?
+WEB-STACK-DEBUGGING
+
+Started by Checking the error, that ended up to be "php" which was misspelled as "phpp".
+I managed to track where the error was thanks to itmux and strace.
+
+Then I concluded by automating the file to fix the error. 
